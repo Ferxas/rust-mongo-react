@@ -51,6 +51,10 @@ no_llvm_build
 /dist/
 /unicode-downloads
 /target
+/backend/target/*
+/backend/target/
+
+
 /library/target
 /src/bootstrap/target
 /src/tools/x/target
@@ -90,7 +94,7 @@ tests/rustdoc-gui/src/**.lock
 ## direnv
 /.envrc
 /.direnv/
-
+.env
 
 ## nix
 /flake.nix
